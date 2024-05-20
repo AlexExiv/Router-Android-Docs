@@ -1,3 +1,3 @@
 # Table of contents
 
-* [ControllerAnimation](README.md)
+* [Overview](README.md)
