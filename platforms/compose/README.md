@@ -198,7 +198,7 @@ abstract class SimpleRouteController: RouteControllerApp<SimplePath, SimpleViewM
 }
 ```
 
-If you use Hilt as dependency injection framework use [compose-hilt](../injection/hilt.md) module and read [documentation](../injection/hilt.md) to know how to pass arguments.
+If you use Hilt as dependency injection framework use [compose-hilt](../../injection/hilt.md) module and read [documentation](../../injection/hilt.md) to know how to pass arguments.
 
 ### SimpleView
 

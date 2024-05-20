@@ -30,7 +30,7 @@ kapt "com.github.AlexExiv.Router-Android:processor:$version"
 
 You can find an example project at [sample-mixed](https://github.com/AlexExiv/Router-Android/tree/main/sample-mixed)
 
-Before reading this section, please make sure to read the sections about [Fragments](fragments.md) and [Compose](compose.md).
+Before reading this section, please make sure to read the sections about [Fragments](fragments/) and [Compose](compose/).
 
 ### Application
 

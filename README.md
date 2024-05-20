@@ -1,12 +1,16 @@
 # Overview
 
-Provides an easy solution for screen navigation in the Android, eliminating the need to understand the Fragment lifecycle or implement transitions in Compose. Also, supports mixed transitions between [Fragments](platforms/fragments.md) and [Compose](platforms/compose.md) screens if you are [migrating](platforms/mixed.md) from the Fragments to Compose or have [mixed](platforms/mixed.md) project at all.&#x20;
+Provides an easy solution for screen navigation in the Android, eliminating the need to understand the Fragment lifecycle or implement transitions in Compose. Also, supports mixed transitions between [Fragments](platforms/fragments/) and [Compose](platforms/compose/) screens if you are [migrating](platforms/mixed.md) from the Fragments to Compose or have [mixed](platforms/mixed.md) project at all.&#x20;
 
 [Framework GitHub Repository](https://github.com/AlexExiv/Router-Android/tree/main)
 
 {% embed url="https://github.com/AlexExiv/Router-Android/tree/main" %}
 Framework GitHub Repository
 {% endembed %}
+
+Latest release verion:
+
+[![](https://jitpack.io/v/AlexExiv/Router-Android.svg)](https://jitpack.io/#AlexExiv/Router-Android)
 
 ## Goals
 

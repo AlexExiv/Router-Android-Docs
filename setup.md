@@ -28,13 +28,13 @@ To add support of diffirent platforms you have to add more libs
 
 ## Platform modules
 
-1. [Fragments](platforms/fragments.md)
+1. [Fragments](platforms/fragments/)
 
 ```groovy
 implementation "com.github.AlexExiv.Router-Android:fragment:$version" // add support of fragments
 ```
 
-2. [Compose](platforms/compose.md)
+2. [Compose](platforms/compose/)
 
 ```groovy
 implementation "com.github.AlexExiv.Router-Android:compose:$version" // add support of compose

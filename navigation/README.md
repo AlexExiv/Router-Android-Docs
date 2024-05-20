@@ -35,6 +35,9 @@ class SimplePath: RoutePath
 
 @Route
 abstract class SimpleRouteController: RouteController<SimplePath, SimpleScreen>()
+
+// Then somewhere in code
+router.route(SimplePath())
 ```
 
 ```kotlin
@@ -45,6 +48,9 @@ class SimpleRouteController: RouteController<SimplePath, SimpleScreen>()
 {
     override fun onCreateView(path: SimplePath): SimpleScreen = // logic of creation of the appropriate Screen
 }
+
+// Then somewhere in code
+router.route(SimplePath("I'm a title"))
 ```
 
 ## Example for Fragment
@@ -56,6 +62,9 @@ class SimplePath: RoutePath
 
 @Route
 abstract class SimpleRouteController: RouteController<SimplePath, SimpleFragment>()
+
+// Then somewhere in a Fragment or ViewModel
+router.route(SimplePath())
 ```
 
 With parameters
@@ -73,9 +82,12 @@ class SimpleRouteController: RouteController<SimplePath, SimpleFragment>()
             }
         }
 }
+
+// Then somewhere in a Fragment or ViewModel
+router.route(SimplePath("I'm a title"))
 ```
 
-Full explanation and examples you can find [here](../platforms/fragments.md)
+Full explanation and examples you can find [here](../platforms/fragments/)
 
 ## Example for Compose
 
@@ -86,6 +98,12 @@ class SimplePath: RoutePath
 
 @Route
 abstract class SimpleRouteController: RouteController<SimplePath, SimpleView>()
+
+// Then somewere in a Compose view
+LocalRouter.currentOrThrow.route(SimplePath())
+
+// Or in a ViewModel
+router.route(SimplePath())
 ```
 
 With parameters
@@ -98,7 +116,13 @@ class SimpleRouteController: RouteController<SimplePath, SimpleView>()
 {
     override fun onCreateView(path: SimplePath): SimpleView = SimpleView(path.title)
 }
+
+// Then somewere in a Compose view
+LocalRouter.currentOrThrow.route(SimplePath("I'm a title"))
+
+// Or in a ViewModel
+router.route(SimplePath("I'm a title"))
 ```
 
-Full explanation and examples you can find [here](../platforms/compose.md)
+Full explanation and examples you can find [here](../platforms/compose/)
 
