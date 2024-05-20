@@ -28,3 +28,5 @@
 * [Injection](injection/README.md)
   * [Dagger](injection/dagger.md)
   * [Hilt](injection/hilt.md)
+* [Animation](animation.md)
+* [Deep links](deep-links.md)
