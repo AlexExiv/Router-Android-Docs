@@ -1,6 +1,6 @@
 # Overview
 
-Provides an easy solution for screen navigation in the Android, eliminating the need to understand the Fragment lifecycle or implement transitions in Compose. Also, supports mixed transitions between Fragments and [Compose](broken-reference) screens if you are migrating from the Fragments to Compose or have mixed project at all.&#x20;
+Provides an easy solution for screen navigation in the Android, eliminating the need to understand the Fragment lifecycle or implement transitions in Compose. Also, supports mixed transitions between [Fragments](platforms/fragments.md) and [Compose](platforms/compose.md) screens if you are [migrating](platforms/mixed.md) from the Fragments to Compose or have [mixed](platforms/mixed.md) project at all.&#x20;
 
 ## Goals
 
@@ -14,7 +14,7 @@ Provides an easy solution for screen navigation in the Android, eliminating the 
 
 ## Features
 
-1. [Navigation](broken-reference) between screens
+1. [Navigation](navigation/) between screens
 2. Transfer result between screens
-3. [Middleware](broken-reference) intercepts navigation between screens, blocking it or replacing it with another navigation
-4. [Chain](broken-reference) - united sequence of screens
+3. [Middleware](middleware.md) intercepts navigation between screens, blocking it or replacing it with another navigation
+4. [Chain](chains.md) - united sequence of screens
