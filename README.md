@@ -15,7 +15,7 @@ Latest release verion:
 ## Goals
 
 1. Project decoupling. Keep the business logic separate from the navigation logic, maintaining a clean architecture.
-2. Easy navigation between screen
+2. Easy navigation between screens
 3. Send parameters to the screen you want to navigate to and get a result from its job
 4. Intercept navigation and replace it by a new one if needed. For example signin screen for unathorized users
 5. Opportunity to close a sequence of screens united in a group. For example you have wizard with several steps and you need to close it all once a user completes his journey
