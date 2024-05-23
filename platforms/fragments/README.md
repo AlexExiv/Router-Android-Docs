@@ -176,33 +176,24 @@ abstract class SimpleRouteController: RouteControllerApp<SimplePath, SimpleViewM
 
 ### SimpleFragment
 
-But also we have to add ViewModel to the `SimpleFragment`.
+In this case, we need to inherit our `SimpleFragment` from the `FragmentViewModel` generic class and pass our `ViewModel` as a parameter.&#x20;
 
-Define a base fragment class with ViewModel from the `Fragment` class
-
-```kotlin
-abstract class BaseViewModelFragment<VM: BaseViewModel>(@LayoutRes layoutId: Int): Fragment(layoutId), ViewFragmentVM<VM>
-{
-    override lateinit var viewModel: VM // will be injected by framework
-}
-```
-
-`SimpleFragment` class
+The `SimpleFragment` class becomes:
 
 ```kotlin
-class SimpleFragment: BaseViewModelFragment<SimpleViewModel>(R.layout.fragment_simple)
+class SimpleFragment: FragmentViewModel<SimpleViewModel>(R.layout.fragment_simple)
 {
     override fun onViewCreated(view: android.view.View, savedInstanceState: Bundle?)
     {
         super.onViewCreated(view, savedInstanceState)
-        viewModel // access ViewModel
+        viewModel // will be injected by framework
     }
 }
 ```
 
 ### SimpleViewModel
 
-`SimpleViewModel` has to be inherited from the `AndroidViewModel` class from the [bootstrap](https://github.com/AlexExiv/Router-Android/tree/main/fragment/src/main/java/com/speakerboxlite/router/fragment/bootstrap) package
+The `SimpleViewModel` class should inherit from the `AndroidViewModel` class provided by the [bootstrap](https://github.com/AlexExiv/Router-Android/tree/main/fragment/src/main/java/com/speakerboxlite/router/fragment/bootstrap) package.
 
 ```kotlin
 class SimpleViewModel(val step: Int, app: Application): AndroidViewModel(app)

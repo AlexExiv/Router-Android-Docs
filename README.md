@@ -31,7 +31,7 @@ The main idea of Router is to avoid navigation calls like these:
 parentFragment?.showFragment(NewFragment.newInstance())
 
 // show dialog
-showDialog(NewDialogFragment.newInstance()
+showDialog(NewDialogFragment.newInstance())
 
 // or change tab
 (parentFragment as TabsFragment).changeTab(0)
