@@ -19,3 +19,7 @@ abstract class ChainRouteController: RouteControllerApp<ChainPath, ChainViewMode
 ```
 
 If you want to explore a comprehensive example, you can refer to the sample-fragment package. It provides a detailed illustration of the concepts discussed, allowing you to see the implementation in action.
+
+## Scheme
+
+<figure><img src=".gitbook/assets/chain.jpeg" alt=""><figcaption><p>Short scheme of how chain works</p></figcaption></figure>

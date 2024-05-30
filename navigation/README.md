@@ -53,6 +53,10 @@ class SimpleRouteController: RouteController<SimplePath, SimpleScreen>()
 router.route(SimplePath("I'm a title"))
 ```
 
+## Simple scheme
+
+<figure><img src="../.gitbook/assets/navigation sheme.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+
 ## Example for Fragment
 
 Example with no parameters to transfer
