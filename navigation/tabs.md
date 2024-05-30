@@ -1,5 +1,7 @@
 # Tabs
 
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption><p>Tabs screen</p></figcaption></figure>
+
 To create tabs, you need to mark the `RouteController` with the `@Tabs` annotation, as shown in the example below:
 
 ```kotlin
