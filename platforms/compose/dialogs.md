@@ -1,5 +1,7 @@
 # Dialogs
 
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+
 To create a Dialog class, you should inherit it from `DialogCompose` from the [bootstrap](https://github.com/AlexExiv/Router-Android/blob/main/compose/src/main/java/com/speakerboxlite/router/compose/bootstrap/BaseViewCompose.kt) package.
 
 ```kotlin

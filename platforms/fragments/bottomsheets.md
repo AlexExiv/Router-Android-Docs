@@ -1,5 +1,7 @@
 # BottomSheets
 
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+
 To create a BottomSheet class, you should inherit it from `BottomSheetDialogFragment` from the [bootstrap](https://github.com/AlexExiv/Router-Android/blob/main/fragment/src/main/java/com/speakerboxlite/router/fragment/bootstrap/BottomSheetDialogFragment.kt) package.
 
 ```kotlin
