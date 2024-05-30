@@ -6,6 +6,7 @@
   * [Dialogs](navigation/dialogs.md)
   * [BottomSheets](navigation/bottomsheets.md)
   * [Tabs](navigation/tabs.md)
+  * [SingleTop](navigation/singletop.md)
 * [ViewModel](viewmodel.md)
 * [Platforms](platforms/README.md)
   * [Fragments](platforms/fragments/README.md)
